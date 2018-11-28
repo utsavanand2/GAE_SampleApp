@@ -1,0 +1,15 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Sample app to be deployed to Google App Engine",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kumar Utsav Anand",
+  "license": "MIT",
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}

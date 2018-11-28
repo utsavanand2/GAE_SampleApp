@@ -1,0 +1,24 @@
+# *** Configuration for App Engine Flexible Environment ***
+# Remove the comments if deploying to App Engine Flexible Environment
+# For Differences between the Flexible and Standard Environment refer to the official documentation available at:
+# https://cloud.google.com/appengine/docs/the-appengine-environments
+#
+# ***************************************************************************************************************
+# [START GAE Flexible Environment]
+# runtime: nodejs
+# env: flex
+#
+# manual_scaling:
+#   instances: 1
+# resources:
+#   cpu: 1
+#   memory_gb: 0.5
+#   disk_size_gb: 10
+# [END GAE Flexible Environment]
+# ***************************************************************************************************************
+
+# *** Configuration for App Engine Standard Environment ***
+# Comment out the below if deploying to App Engine Flexible Environment
+# [START GAE Standard Environment]
+runtime: nodejs10
+# [END GAE Standard Environment]
