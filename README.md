@@ -12,7 +12,6 @@
 *   Open up a terminal window and clone this git repository 
     ```
     $ git clone https://github.com/utsavanand2/GAE_SampleApp.git
-
     ```
 *   Go to the root of the cloned repo
     ```
